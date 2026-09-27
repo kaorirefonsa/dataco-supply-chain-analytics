@@ -1,4 +1,5 @@
 # DataCo Supply Chain Analysis: Why Are 57% of Orders Late?
+![Dashboard](dashboard/dashboard.png)
 
 An end-to-end supply chain analysis of the DataCo dataset (~66K orders, 2015–2018) using **Python** for data cleaning and **Power BI** for visualization. The project investigates why 57% of orders are delivered late by examining late rates across time, shipping mode, region, market, and customer segment. The analysis finds that **shipping mode is the only factor that meaningfully explains lateness**: premium modes consistently miss their delivery promises (First Class is late on 100% of orders, and Second Class takes roughly twice its scheduled time), while regional and customer-level differences are minimal or driven by small sample sizes.
 
